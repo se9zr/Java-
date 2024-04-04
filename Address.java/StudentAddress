@@ -7,20 +7,6 @@ package StudentAddress;
     private String state;
     private int zipCode;
     
-    public static void main(String args[])
-    {
-        Address a1 = new Address("King Fasil","Abha","Asir",25234);
-        Student s1 = new Student(a1,"Ahmed");
-        Address a2 = new Address("King Abdullah","Jeddah","Meccah",23355);
-        Student s2 = new Student(a2,"Ali");
-        
-        System.out.println("Student info: \n"
-                + "name: "+s1.getName()+"\n"
-                        + "Street: "+s1.getAddress().getStreet()+"\n"
-                                + "City: "+s1.getAddress().getCity()+"\n"
-                                        + "zip Code: "+s1.getAddress().getZipCode());
-    }
-    
     public Address()
     {
         
